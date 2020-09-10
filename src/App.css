@@ -1,11 +1,17 @@
 :root {
-  --background-color: #ffffff;
-  --icon-color: #000000;
-  --font-color: #000000;
+  --background-color: #161616;
+  --icon-color: #f4f4f4;
+  --font-color: #f4f4f4;
+  --swiper-dot-color: #161616;
+  --swiper-dot-border-color: #f4f4f4;
 }
 
-.darkmode {
-  --background-color: white;
+.lightmode {
+  --background-color: #f4f4f4;
+  --icon-color: #161616;
+  --font-color: #161616;
+  --swiper-dot-color: #000000;
+  --swiper-dot-border-color: #000000;
 }
 
 :not(rect) {
@@ -16,10 +22,10 @@
 
 .app {
   height: 100vh;
-  background-color: chocolate;
   display: grid;
   grid-template-rows: auto 2fr 2fr 1fr;
   overflow: auto;
+  background-color: var(--background-color);
 }
 
 .header {
@@ -55,35 +61,6 @@
   padding-right: 37px;
 }
 
-/* .header {
-  display: flex;
-  height: 59px;
-  width: 100%;
-  background-color: var(--background-color);
-  color: white;
-  align-items: center;
-}
-
-.header .hamburger {
-  margin-left: 37px;
-  margin-right: 0;
-}
-
-.header .logo {
-  margin-left: 52px;
-  margin-right: 0;
-  z-index: 20;
-}
-
-.header .search {
-  margin-left: 32px;
-  margin-right: 10px;
-}
-
-.header .cart {
-  margin: 0;
-} */
-
 .showcase {
   display: grid;
   width: 100%;
@@ -92,6 +69,11 @@
 .main {
   display: grid;
   width: 100%;
+  background-image: linear-gradient(
+    to bottom right,
+    #1c1c1c 50%,
+    rgb(117, 117, 117, 0.14) 50%
+  );
 }
 
 .main .collection-text {

@@ -9,7 +9,6 @@
 
 .swiper-slide {
   text-align: center;
-  background: royalblue;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -31,9 +30,9 @@
   height: 10px;
   background: white;
   opacity: initial;
-  border: 1px solid black;
+  border: 1px solid var(--swiper-dot-border-color);
 }
 
 .swiper-pagination-bullet-active {
-  background: #000000;
+  background: var(--swiper-dot-color);
 }
