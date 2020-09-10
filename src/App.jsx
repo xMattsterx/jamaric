@@ -1,10 +1,9 @@
 import React from "react";
 import "./App.css";
-import Icon from "./components/SVG/SVG";
+import SVGComponent from "./components/SVGComponent";
 import Swiper from "./components/Swiper";
-import Navbar from "./components/Navigation/NavBar";
+import Navbar from "./components/navigation/NavBar";
 import "./components/Accordion.css";
-
 import { Accordion, Card } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -16,18 +15,13 @@ function App() {
           <Navbar />
         </div>
         <div className="logo">
-          <Icon name="logo" width={135} height={50} />
+          <SVGComponent name="logo" width={135} height={50} />
         </div>
         <div className="search">
-          <Icon
-            name="search"
-            width={19.6}
-            height={19.6}
-            fill={"currentColor"}
-          />
+          <SVGComponent name="search" width={19.6} height={19.6} />
         </div>
         <div className="cart">
-          <Icon name="cart" width={19.6} height={17.42} fill={"currentColor"} />
+          <SVGComponent name="cart" width={19.6} height={17.42} />
         </div>
       </div>
       <div className="showcase">

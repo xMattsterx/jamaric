@@ -1,6 +1,6 @@
 import React from "react";
 
-function SvgComponent(props) {
+function Search(props) {
   return (
     <svg
       aria-hidden="true"
@@ -18,4 +18,4 @@ function SvgComponent(props) {
   );
 }
 
-export default SvgComponent;
+export default Search;

@@ -1,9 +1,9 @@
 import React from "react";
-import Logo from "./Logo";
-import Search from "./Search";
-import Cart from "./Cart";
+import Logo from "./buttons/Logo";
+import Search from "./buttons/Search";
+import Cart from "./buttons/Cart";
 
-function Icon(props) {
+function SVGComponent(props) {
   switch (props.name) {
     case "logo":
       return <Logo {...props} />;
@@ -16,4 +16,4 @@ function Icon(props) {
   }
 }
 
-export default Icon;
+export default SVGComponent;

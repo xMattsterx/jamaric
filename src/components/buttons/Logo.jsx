@@ -1,6 +1,6 @@
 import React from "react";
 
-function SvgComponent(props) {
+function Logo(props) {
   return (
     <svg
       width={props.width}
@@ -19,4 +19,4 @@ function SvgComponent(props) {
   );
 }
 
-export default SvgComponent;
+export default Logo;
