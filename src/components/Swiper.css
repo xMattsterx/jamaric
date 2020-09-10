@@ -7,6 +7,11 @@
   padding-inline-start: 0;
 }
 
+/* TEMP CLASS */
+.swiper-wrapper {
+  color: white;
+}
+
 .swiper-slide {
   text-align: center;
 
@@ -28,11 +33,11 @@
 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
-  background: white;
+  background: none;
   opacity: initial;
   border: 1px solid var(--swiper-dot-border-color);
 }
 
 .swiper-pagination-bullet-active {
-  background: var(--swiper-dot-color);
+  background: var(--swiper-dot-active-color);
 }
