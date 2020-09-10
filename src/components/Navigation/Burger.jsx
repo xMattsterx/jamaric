@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import RightNav from "./RightNav";
+import RightNav from "./TopNav";
 
 const StyledBurger = styled.div`
   width: 1.5rem;
@@ -8,7 +8,6 @@ const StyledBurger = styled.div`
   position: fixed;
   top: 18px;
   z-index: 20;
-  display: none;
 
   @media (max-width: 768px) {
     display: flex;

@@ -1,5 +1,7 @@
 :root {
-  --background-color: #161616;
+  --background-color: #ffffff;
+  --icon-color: #000000;
+  --font-color: #000000;
 }
 
 .darkmode {
@@ -20,6 +22,39 @@
 }
 
 .header {
+  display: grid;
+  background-color: var(--background-color);
+  align-items: center;
+  width: 100%;
+  grid-template-columns: 1fr 2fr 1fr 0fr;
+}
+
+.header .hamburger {
+  width: 100%;
+  margin-left: 37px;
+}
+
+.hamburger div div {
+  background-color: var(--icon-color);
+}
+
+.header .logo {
+  color: var(--icon-color);
+  z-index: 20;
+  padding-left: 60px;
+}
+
+.header .search {
+  color: var(--icon-color);
+  margin-right: 10px;
+}
+
+.header .cart {
+  color: var(--icon-color);
+  margin-right: 37px;
+}
+
+/* .header {
   display: flex;
   height: 59px;
   width: 100%;
@@ -46,7 +81,7 @@
 
 .header .cart {
   margin: 0;
-}
+} */
 
 .showcase {
   display: grid;
@@ -65,4 +100,5 @@
 .footer {
   width: 100%;
   background-color: gold;
+  color: var(--font-color);
 }

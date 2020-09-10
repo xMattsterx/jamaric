@@ -5,8 +5,7 @@ function SvgComponent(props) {
     <svg
       width={props.width}
       height={props.height}
-      z-index={20}
-      viewBox="0 0 1400 400"
+      viewBox="0 45 1400 300"
       fill="currentColor"
       {...props}
     >

@@ -8,12 +8,12 @@ const Ul = styled.ul`
   z-index: 10;
 
   li {
-    color: #000000;
+    color: var(--font-color);
     padding: 18px 10px;
   }
 
   flex-flow: column nowrap;
-  background-color: #c4c4c4;
+  background-color: var(--background-color);
   position: fixed;
   transform: ${({ open }) => (open ? "translateY(0)" : "translateY(-100%)")};
   top: 0;
@@ -21,7 +21,7 @@ const Ul = styled.ul`
   height: 100vh;
   width: 100%;
   padding-top: 3.5rem;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 `;
 
 const RightNav = ({ open }) => {

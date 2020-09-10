@@ -16,7 +16,7 @@ function App() {
           <Navbar />
         </div>
         <div className="logo">
-          <Icon name="logo" width={132} height={35} />
+          <Icon name="logo" width={135} height={50} />
         </div>
         <div className="search">
           <Icon

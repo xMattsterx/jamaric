@@ -1,5 +1,11 @@
-.card-header {
+.card .card-header {
   display: grid;
   justify-content: center;
   width: 100%;
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+.card-body {
+  color: var(--font-color);
 }
