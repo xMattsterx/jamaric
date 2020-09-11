@@ -15,10 +15,7 @@ function App() {
           <Navbar />
         </div>
         <div className="logo">
-          <SVGComponent name="logo" width={135} height={50} />
-        </div>
-        <div className="search">
-          <SVGComponent name="search" width={19.6} height={19.6} />
+          <SVGComponent name="logo" width={130} height={50} />
         </div>
         <div className="cart">
           <SVGComponent name="cart" width={19.6} height={17.42} />
@@ -49,7 +46,8 @@ function App() {
             </Accordion.Collapse>
           </Card>
         </Accordion>
-        Copyright
+        <div className="socialMedia">social media</div>
+        <div className="copyright">Copyright</div>
       </div>
     </div>
   );

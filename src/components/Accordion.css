@@ -1,13 +1,13 @@
 .accordion .card {
   border: none;
   border-radius: 0;
+  background-color: inherit;
 }
 
 .card .card-header {
   display: grid;
   justify-content: center;
   width: 100%;
-  background-color: #000000;
   color: var(--font-color);
 }
 
@@ -15,10 +15,4 @@
   display: flex;
   justify-content: center;
   color: var(--font-color);
-  background-color: #000000;
-}
-
-.collapse,
-.collapsing {
-  width: 100%;
 }

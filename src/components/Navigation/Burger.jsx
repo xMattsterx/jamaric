@@ -5,9 +5,8 @@ import TopNav from "./TopNav";
 const StyledBurger = styled.div`
   width: 1.5rem;
   height: 1.5rem;
-  position: fixed;
   top: 18px;
-  z-index: 20;
+  z-index: 999;
 
   @media (max-width: 768px) {
     display: flex;

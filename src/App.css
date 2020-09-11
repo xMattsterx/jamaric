@@ -23,66 +23,51 @@
 .app {
   height: 100vh;
   display: grid;
-  grid-template-rows: auto 2fr 2fr 1fr;
-  overflow: auto;
+  grid-template-rows: auto 1fr 1fr auto;
   background-color: var(--background-color);
+  font-family: "Aldrich", sans-serif;
+  overflow: auto;
 }
 
 .header {
   display: grid;
   background-color: var(--background-color);
   align-items: center;
-  width: 100%;
-  grid-template-columns: 1fr 2fr 1fr 0fr;
-}
-
-.header .hamburger {
-  width: 100%;
-  padding-left: 37px;
-}
-
-.hamburger div div {
-  background-color: var(--icon-color);
+  grid-template-columns: 1fr 1fr 1fr;
+  z-index: 999;
+  position: absolute;
 }
 
 .header .logo {
   color: var(--icon-color);
   z-index: 20;
-  padding-left: 60px;
-}
-
-.header .search {
-  color: var(--icon-color);
-  padding-left: 32px;
 }
 
 .header .cart {
   color: var(--icon-color);
-  padding-right: 37px;
 }
 
 .showcase {
   display: grid;
   width: 100%;
+  color: white;
+  min-height: 309px;
+  margin-top: 50px;
 }
 
 .main {
   display: grid;
   width: 100%;
+  min-height: 309px;
   background-image: linear-gradient(
     to bottom right,
-    #1c1c1c 50%,
+    var(--background-color) 50%,
     rgb(117, 117, 117, 0.14) 50%
   );
 }
 
-.main .collection-text {
-  font-size: 23px;
-}
-
 .footer {
   width: 100%;
-  background-color: gold;
+  background-color: #000000;
   color: var(--font-color);
-  overflow-y: auto;
 }
