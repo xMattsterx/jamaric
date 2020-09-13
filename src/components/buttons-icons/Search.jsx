@@ -3,6 +3,8 @@ import React from "react";
 function Search(props) {
   return (
     <svg
+      width={props.width}
+      height={props.height}
       aria-hidden="true"
       data-prefix="fas"
       data-icon="search"

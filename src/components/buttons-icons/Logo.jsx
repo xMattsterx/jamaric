@@ -5,7 +5,7 @@ function Logo(props) {
     <svg
       width={props.width}
       height={props.height}
-      viewBox="0 45 1400 300"
+      viewBox={props.viewBox}
       fill="currentColor"
       {...props}
     >
