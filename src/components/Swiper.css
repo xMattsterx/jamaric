@@ -34,9 +34,5 @@
   height: 10px;
   background: none;
   opacity: initial;
-  border: 1px solid var(--swiper-dot-border-color);
-}
-
-.swiper-pagination-bullet-active {
-  background: var(--swiper-dot-active-color);
+  /* border: 1px solid var(--swiper-dot-border-color); */
 }

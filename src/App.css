@@ -9,8 +9,9 @@
 
 .lightmode {
   --main-background-color: #f4f4f4;
-  --icon-color: #161616;
-  --font-color: #161616;
+  --background-header-color: #f4f4f4;
+  --icon-color: #000000;
+  --font-color: #000000;
   --swiper-dot-color: #000000;
   --swiper-dot-border-color: #000000;
 }
@@ -25,14 +26,14 @@
   height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr 1fr auto;
-  background-color: var(--main-background-color);
+  /* background-color: var(--main-background-color); */
   font-family: "Aldrich", sans-serif;
   overflow: auto;
 }
 
 .header {
   display: grid;
-  background-color: var(--background-header-color);
+  /* background-color: var(--background-header-color); */
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   z-index: 999;
@@ -43,13 +44,13 @@
 }
 
 .header .logo {
-  color: var(--icon-color);
+  /* color: var(--icon-color); */
   z-index: 20;
 }
 
-.header .cart {
+/* .header .cart {
   color: var(--icon-color);
-}
+} */
 
 .showcase {
   display: grid;
@@ -77,30 +78,6 @@
   color: var(--font-color);
 }
 
-.footer .circle {
-  display: flex;
-  align-items: center;
-  height: 33px;
-  width: 33px;
-  background-color: var(--main-background-color);
-  border-radius: 50%;
-  bottom: 3px;
-}
-.footer .sun {
-  position: absolute;
-  bottom: -3px;
-  left: 9px;
-}
-
-.footer .moon {
-  transform: rotate(15deg);
-  height: 28px;
-}
-
-.footer .lightDarkMode {
-  position: relative;
-}
-
 .footer .socialMedia {
   display: inline-flex;
 
@@ -108,13 +85,21 @@
 }
 
 .footer .twitter {
+  position: relative;
+  top: 3px;
 }
 
 .footer .facebook {
+  position: relative;
+  top: 3px;
 }
 .footer .snapchat {
+  position: relative;
+  top: 3px;
 }
 .footer .instagram {
+  position: relative;
+  top: 3px;
 }
 
 .footer .copyright {

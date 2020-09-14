@@ -12,7 +12,7 @@ const Ul = styled.ul`
   }
 
   flex-flow: column nowrap;
-  background-color: var(--background-header-color);
+  // background-color: var(--background-header-color);
   position: fixed;
   transform: ${({ open }) => (open ? "translateY(0)" : "translateY(-100%)")};
   top: 0;

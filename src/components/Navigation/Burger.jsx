@@ -17,7 +17,7 @@ const StyledBurger = styled.div`
   div {
     width: 1.5rem;
     height: 0.15rem;
-    background-color: #ffffff;
+    //background-color: #ffffff;
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.25s linear;
